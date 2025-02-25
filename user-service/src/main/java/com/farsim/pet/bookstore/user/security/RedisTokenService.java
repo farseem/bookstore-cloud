@@ -1,4 +1,4 @@
-package com.farsim.pet.bookstore.us.security;
+package com.farsim.pet.bookstore.user.security;
 
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;

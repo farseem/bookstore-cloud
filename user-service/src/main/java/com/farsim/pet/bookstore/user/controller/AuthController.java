@@ -1,12 +1,12 @@
-package com.farsim.pet.bookstore.us.controller;
+package com.farsim.pet.bookstore.user.controller;
 
-import com.farsim.pet.bookstore.us.security.JwtService;
-import com.farsim.pet.bookstore.us.security.RedisTokenService;
+import com.farsim.pet.bookstore.user.security.JwtService;
+import com.farsim.pet.bookstore.user.security.RedisTokenService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/auth")
+@RequestMapping("/api/v1/auth")
 public class AuthController {
 
     private final JwtService jwtService;

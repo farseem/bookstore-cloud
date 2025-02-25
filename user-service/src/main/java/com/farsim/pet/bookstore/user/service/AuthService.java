@@ -29,7 +29,7 @@ public class AuthService {
                 .build();
 
         userRepository.save(user);
-        String token = jwtService.generateToken(user);
+        String token = jwtService.generateToken(user.getUsername());
         return new AuthResponse(token);
     }
 
@@ -41,7 +41,7 @@ public class AuthService {
             throw new RuntimeException("Invalid credentials");
         }
 
-        String token = jwtService.generateToken(user);
+        String token = jwtService.generateToken(user.getUsername());
         return new AuthResponse(token);
     }
 }

@@ -1,11 +1,5 @@
 spring:
   application:
-    name:Bookstore User
-  redis:
-    host: localhost
-    port: 6379
-
-jwt:
-  secret: your-very-secret-key-which-is-at-least-32-characters-long
-  expiration: 86400000  # 1 day in milliseconds
-
+    name: Bookstore User
+  profiles:
+    active: dev

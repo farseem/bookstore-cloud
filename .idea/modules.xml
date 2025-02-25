@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/book-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/book-service.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-bookstore.iml" filepath="$PROJECT_DIR$/.idea/spring-bookstore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service.main.iml" />
     </modules>
   </component>
 </project>

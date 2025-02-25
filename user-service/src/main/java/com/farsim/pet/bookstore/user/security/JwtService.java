@@ -1,4 +1,4 @@
-package com.farsim.pet.bookstore.us.security;
+package com.farsim.pet.bookstore.user.security;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
