@@ -1,11 +1,10 @@
 package com.farsim.pet.bookstore.user.service;
 
+import com.farsim.pet.bookstore.user.dto.request.AuthRequest;
+import com.farsim.pet.bookstore.user.dto.request.RegisterRequest;
+import com.farsim.pet.bookstore.user.dto.response.AuthResponse;
 import com.farsim.pet.bookstore.user.entity.User;
-import com.farsim.pet.bookstore.user.enums.Role;
 import com.farsim.pet.bookstore.user.repository.UserRepository;
-import com.farsim.pet.bookstore.user.dto.AuthRequest;
-import com.farsim.pet.bookstore.user.dto.AuthResponse;
-import com.farsim.pet.bookstore.user.dto.RegisterRequest;
 import com.farsim.pet.bookstore.user.security.JwtService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;

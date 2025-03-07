@@ -1,4 +1,4 @@
-package com.farsim.pet.bookstore.user.dto;
+package com.farsim.pet.bookstore.user.dto.request;
 
 import com.farsim.pet.bookstore.user.enums.Role;
 import com.farsim.pet.bookstore.user.enums.UserType;

@@ -1,4 +1,4 @@
-package com.farsim.pet.bookstore.user.dto;
+package com.farsim.pet.bookstore.user.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
